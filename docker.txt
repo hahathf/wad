@@ -1,0 +1,16 @@
+docker -v
+docker images
+docker ps
+docker pull openjdk
+docker images
+run command : docker run --name JAVA -it -d openjdk
+docker ps
+jshell enter command : docker exec -it JAVA jshell 
+Sytem.out.println("Hello Docker");
+
+
+jshel exit command : /exit
+
+stop 
+
+docker container rm yourcontaineridhere
